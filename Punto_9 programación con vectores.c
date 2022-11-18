@@ -13,9 +13,9 @@ int main()
     scanf("%d",&min);
     scanf("%d",&max);
     
-    for (int u=0;u<10;u++){
-        vect[u] = rand() % (max-min+1) + min;
-        printf("%d ",vect[u]);
+    for (int i=0; i<10; i++){
+        vect[i] = rand() % (max-min+1) + min;
+        printf("%d ",vect[i]);
     }
     
     return 0;
