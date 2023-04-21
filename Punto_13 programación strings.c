@@ -14,4 +14,3 @@ int main() {
     printf("La palabra tiene %d caracteres.", i);
     return 0;
 }
-// prueba 1
